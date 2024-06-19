@@ -7,4 +7,3 @@ RUN apk add --no-cache tar
 RUN apk update
 RUN adduser -D door
 USER door
-ENTRYPOINT ["/bin/sh","-c","sleep infinity"]
